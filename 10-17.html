@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JS Control Flow Exercise</title>
+		<script>
+			let my_name = "Yuting Dong";
+			console.log('My name is ' +my_name+ '.');
+			console.log('My name has ' + my_name.length+ ' characters.');
+		</script>
+	</head>
+	
+	<body>
+		<h1>10-17</h1>
+		<script>
+			let pi = 3.145;
+			console.log(Math.floor(pi)*Math.random());
+			
+			//grade calculator
+			let grade = 85;
+			let letter_grade;
+			if (grade >=90){
+				letter_grade='A';
+				console.log(letter_grade);
+			}
+			else if (grade >=90){
+				letter_grade='A';
+				console.log(letter_grade);
+			}
+			else if (grade >=80){
+				letter_grade='B';
+				console.log(letter_grade);
+			}
+			else if (grade >=70){
+				letter_grade='C';
+				console.log(letter_grade);
+			}
+			else if (grade >=60){
+				letter_grade='D';
+				console.log(letter_grade);
+			}
+			else {
+				letter_grade='F';
+				console.log(letter_grade);
+			}
+			
+			let word_count = 12;
+			if (word_count){
+				console.log("not 0");
+			}
+			else {
+				console.log("word count is 0");
+			}
+			
+			word_count? console.log('not 0') : console.log('word count is 0');
+		</script>
+	</body>
+</html>
